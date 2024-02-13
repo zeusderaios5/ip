@@ -16,7 +16,7 @@ while num2 < 200:
         protocol3 += '%ff%ff%ff'
         os.startfile(protocol+protocol2+protocol3)
 
-        time.sleep(0.2)
+        time.sleep(0.3)
         pyautogui.keyDown('alt')
         pyautogui.press('f4')
         pyautogui.keyUp('alt')
